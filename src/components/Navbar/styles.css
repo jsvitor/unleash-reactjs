@@ -1,0 +1,52 @@
+#main-navbar {
+  background-color: var(--dark-color);
+  height: 50px;
+}
+
+#main-navbar .container {
+  height: 40px;
+  width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#main-navbar .brand {
+  position: relative;
+  /* vertical-align: top; */
+  height: 1.4rem;
+}
+
+#main-navbar .brand h3 {
+  font-size: 1.8rem;
+  color: white;
+  position: relative;
+  bottom: initial;
+
+  cursor: default;
+}
+
+#main-navbar .menu {
+  position: relative;
+  top: -0.5rem;
+}
+
+#main-navbar a {
+  padding: 4px 30px;
+  background: none;
+  
+  border: 1px solid var(--danger-color);
+  border-radius: 5px;
+
+  font-size: 16px;
+  color: var(--danger-color);
+  
+  transition: all 0.3s;
+}
+
+#main-navbar a:hover {
+  background-color: var(--danger-color);
+  color: #fff;
+}
