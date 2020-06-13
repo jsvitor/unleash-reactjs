@@ -1,9 +1,10 @@
 :root {
   --primary-color: #00B0FF;
-  --dark-color: #161617;
-  --black-color: #111116;
   --secondary-color: #7F5DF5;
   --danger-color: #da552f;
+  --gray-color: #e1e4e9;
+  --dark-color: #161617;
+  --black-color: #111116;
 }
 
 * {
@@ -18,6 +19,8 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   font-size: 3rem;
+  line-height: 1.5;
+  color: #24292e;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;
+}
+
+img {
+  border-style: none;
 }
 
 .container {
