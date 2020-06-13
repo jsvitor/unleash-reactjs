@@ -5,13 +5,13 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './assets/css/global.css';
 
 import Home from './pages/home';
-import Profile from './pages/profile';
+import Dashboard from './pages/dashboard';
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/profile" component={Profile} />
+      <Route path="/Dashboard" component={Dashboard} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
